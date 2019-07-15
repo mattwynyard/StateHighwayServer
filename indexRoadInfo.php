@@ -3,7 +3,7 @@ $startSH_Time = microtime(true);
 $curl_sh = curl_init('https://infoconnect1.highwayinfo.govt.nz/ic/jbi/TREIS/REST/FeedService/');
 
 curl_setopt($curl_sh, CURLOPT_HTTPHEADER, array(
-    'username: mjwynyard', 'password: Copper2004'
+    'username: ****', 'password: *****'
         )
 );
 curl_setopt($curl_sh, CURLOPT_RETURNTRANSFER, true);
